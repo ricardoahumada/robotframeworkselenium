@@ -12,9 +12,9 @@ ${BROWSER}        Chrome
 ${DELAY}          0
 ${VALID USER}     demo
 ${VALID PASSWORD}    mode
-${LOGIN URL}      <a href="http://">http://</a>${SERVER}/
-${WELCOME URL}    <a href="http://">http://</a>${SERVER}/welcome.html
-${ERROR URL}      <a href="http://">http://</a>${SERVER}/error.html
+${LOGIN URL}      http://${SERVER}/index.html
+${WELCOME URL}    http://${SERVER}/welcome.html
+${ERROR URL}      http://${SERVER}/error.html
  
 *** Keywords ***
 Open Browser To Login Page
